@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>xAxB</title>
+</head>
+<body>
+    <h1>xAxB</h1>
+    <p>{{ message }}</p>
+    <form action="/" method="post">
+        <input type="text" name="guess" maxlength="4" pattern="[0-9]{4}" value="{{ guess_number }}" required>
+        <input type="submit" value="猜">
+    </form>
+</body>
+</html>
